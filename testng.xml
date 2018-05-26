@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UniversityAtAlbany">
+	<listeners>
+		<listener class-name="test.Listenners"/>
+	</listeners>
+
+  <test name="BusinessSchool">
+    <classes>
+      <class name="test.lecture1"/>
+      <class name="test.test2"/>
+      <class name="test.DataProviderExercise"/>
+    </classes>
+  </test> 
+  	<test name= "car loan">
+  	
+  	<classes>
+  		<class name= "test.test3"/>
+  		<class name ="test.SyntaxNGPractice"/>
+  	
+  		
+  	<class name= "test.test4">
+  	<methods>
+  	<include name="LoginAPIHomeLoan"/>
+  	</methods>
+  	</class>
+  	
+  	</classes>
+  	</test>
+</suite> 

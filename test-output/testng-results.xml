@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="12" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UniversityAtAlbany" duration-ms="8231" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:09Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="test3.WebloginCarLoan()[pri:0, instance:test.test3@42e26948]" name="WebloginCarLoan" class="test.test3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="BusinessSchool" duration-ms="100" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+      <class name="test.DataProviderExercise">
+        <test-method status="PASS" signature="practice(java.lang.String, java.lang.String, int)[pri:0, instance:test.DataProviderExercise@482f8f11]" name="practice" duration-ms="3" started-at="2018-04-27T01:51:01Z" data-provider="credentials" finished-at="2018-04-27T01:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Welcome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practice -->
+      </class> <!-- test.DataProviderExercise -->
+      <class name="test.test2">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:test.test2@51565ec2]" name="Test2" duration-ms="6" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- test.test2 -->
+      <class name="test.lecture1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.lecture1@68be2bc2]" name="Demo" duration-ms="21" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:test.lecture1@68be2bc2]" name="SecondTest" duration-ms="2" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test.lecture1 -->
+    </test> <!-- BusinessSchool -->
+    <test name="car loan" duration-ms="8038" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:09Z">
+      <class name="test.SyntaxNGPractice">
+        <test-method status="PASS" signature="StartCode()[pri:0, instance:test.SyntaxNGPractice@57baeedf]" name="StartCode" is-config="true" duration-ms="6831" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartCode -->
+        <test-method status="PASS" signature="TestNGmethod()[pri:0, instance:test.SyntaxNGPractice@57baeedf]" name="TestNGmethod" duration-ms="363" started-at="2018-04-27T01:51:08Z" finished-at="2018-04-27T01:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGmethod -->
+        <test-method status="PASS" signature="Closing()[pri:0, instance:test.SyntaxNGPractice@57baeedf]" name="Closing" is-config="true" duration-ms="806" started-at="2018-04-27T01:51:09Z" finished-at="2018-04-27T01:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+      </class> <!-- test.SyntaxNGPractice -->
+      <class name="test.test4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:test.test4@343f4d3d]" name="LoginAPIHomeLoan" duration-ms="12" started-at="2018-04-27T01:51:09Z" finished-at="2018-04-27T01:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+      </class> <!-- test.test4 -->
+      <class name="test.test3">
+        <test-method status="PASS" signature="LoginAPICarLoan()[pri:0, instance:test.test3@42e26948]" name="LoginAPICarLoan" duration-ms="2" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan -->
+        <test-method status="PASS" signature="MobileLoginCarLoan()[pri:0, instance:test.test3@42e26948]" name="MobileLoginCarLoan" duration-ms="2" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method status="PASS" signature="WebloginCarLoan()[pri:0, instance:test.test3@42e26948]" name="WebloginCarLoan" duration-ms="3" started-at="2018-04-27T01:51:01Z" finished-at="2018-04-27T01:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+      </class> <!-- test.test3 -->
+    </test> <!-- car loan -->
+  </suite> <!-- UniversityAtAlbany -->
+</testng-results>
